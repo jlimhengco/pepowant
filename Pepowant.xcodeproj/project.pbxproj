@@ -19,6 +19,9 @@
 		3FB4D2DF17C478F500DBCDB5 /* PEPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4D2DE17C478F500DBCDB5 /* PEPViewController.m */; };
 		3FB4D2E217C478F500DBCDB5 /* PEPViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2E017C478F500DBCDB5 /* PEPViewController_iPhone.xib */; };
 		3FB4D2E517C478F500DBCDB5 /* PEPViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2E317C478F500DBCDB5 /* PEPViewController_iPad.xib */; };
+		3FB4D2F317C47A6900DBCDB5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2F117C47A6900DBCDB5 /* Icon.png */; };
+		3FB4D2F417C47A6900DBCDB5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2F217C47A6900DBCDB5 /* Icon@2x.png */; };
+		3FB4D2FA17C47BC800DBCDB5 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2F917C47BC800DBCDB5 /* logo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		3FB4D2DE17C478F500DBCDB5 /* PEPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEPViewController.m; sourceTree = "<group>"; };
 		3FB4D2E117C478F500DBCDB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PEPViewController_iPhone.xib; sourceTree = "<group>"; };
 		3FB4D2E417C478F500DBCDB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PEPViewController_iPad.xib; sourceTree = "<group>"; };
+		3FB4D2F117C47A6900DBCDB5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
+		3FB4D2F217C47A6900DBCDB5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
+		3FB4D2F917C47BC800DBCDB5 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = images/logo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		3FB4D2CC17C478F500DBCDB5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3FB4D2F917C47BC800DBCDB5 /* logo.jpg */,
+				3FB4D2F117C47A6900DBCDB5 /* Icon.png */,
+				3FB4D2F217C47A6900DBCDB5 /* Icon@2x.png */,
 				3FB4D2CD17C478F500DBCDB5 /* Pepowant-Info.plist */,
 				3FB4D2CE17C478F500DBCDB5 /* InfoPlist.strings */,
 				3FB4D2D117C478F500DBCDB5 /* main.m */,
@@ -168,6 +177,9 @@
 				3FB4D2DC17C478F500DBCDB5 /* Default-568h@2x.png in Resources */,
 				3FB4D2E217C478F500DBCDB5 /* PEPViewController_iPhone.xib in Resources */,
 				3FB4D2E517C478F500DBCDB5 /* PEPViewController_iPad.xib in Resources */,
+				3FB4D2F317C47A6900DBCDB5 /* Icon.png in Resources */,
+				3FB4D2F417C47A6900DBCDB5 /* Icon@2x.png in Resources */,
+				3FB4D2FA17C47BC800DBCDB5 /* logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
