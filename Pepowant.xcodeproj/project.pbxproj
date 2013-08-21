@@ -22,6 +22,10 @@
 		3FB4D2F317C47A6900DBCDB5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2F117C47A6900DBCDB5 /* Icon.png */; };
 		3FB4D2F417C47A6900DBCDB5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2F217C47A6900DBCDB5 /* Icon@2x.png */; };
 		3FB4D2FA17C47BC800DBCDB5 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2F917C47BC800DBCDB5 /* logo.jpg */; };
+		3FB4D2FE17C4803C00DBCDB5 /* PEPSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4D2FC17C4803C00DBCDB5 /* PEPSignupViewController.m */; };
+		3FB4D2FF17C4803C00DBCDB5 /* PEPSignupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D2FD17C4803C00DBCDB5 /* PEPSignupViewController.xib */; };
+		3FB4D30317C4828900DBCDB5 /* PEPDiscountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4D30117C4828900DBCDB5 /* PEPDiscountViewController.m */; };
+		3FB4D30417C4828900DBCDB5 /* PEPDiscountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB4D30217C4828900DBCDB5 /* PEPDiscountViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,12 @@
 		3FB4D2F117C47A6900DBCDB5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
 		3FB4D2F217C47A6900DBCDB5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
 		3FB4D2F917C47BC800DBCDB5 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = images/logo.jpg; sourceTree = "<group>"; };
+		3FB4D2FB17C4803C00DBCDB5 /* PEPSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEPSignupViewController.h; sourceTree = "<group>"; };
+		3FB4D2FC17C4803C00DBCDB5 /* PEPSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEPSignupViewController.m; sourceTree = "<group>"; };
+		3FB4D2FD17C4803C00DBCDB5 /* PEPSignupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PEPSignupViewController.xib; sourceTree = "<group>"; };
+		3FB4D30017C4828900DBCDB5 /* PEPDiscountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEPDiscountViewController.h; sourceTree = "<group>"; };
+		3FB4D30117C4828900DBCDB5 /* PEPDiscountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEPDiscountViewController.m; sourceTree = "<group>"; };
+		3FB4D30217C4828900DBCDB5 /* PEPDiscountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PEPDiscountViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,12 @@
 				3FB4D2DD17C478F500DBCDB5 /* PEPViewController.h */,
 				3FB4D2DE17C478F500DBCDB5 /* PEPViewController.m */,
 				3FB4D2E017C478F500DBCDB5 /* PEPViewController_iPhone.xib */,
+				3FB4D2FB17C4803C00DBCDB5 /* PEPSignupViewController.h */,
+				3FB4D2FC17C4803C00DBCDB5 /* PEPSignupViewController.m */,
+				3FB4D2FD17C4803C00DBCDB5 /* PEPSignupViewController.xib */,
+				3FB4D30017C4828900DBCDB5 /* PEPDiscountViewController.h */,
+				3FB4D30117C4828900DBCDB5 /* PEPDiscountViewController.m */,
+				3FB4D30217C4828900DBCDB5 /* PEPDiscountViewController.xib */,
 				3FB4D2E317C478F500DBCDB5 /* PEPViewController_iPad.xib */,
 				3FB4D2CC17C478F500DBCDB5 /* Supporting Files */,
 			);
@@ -180,6 +196,8 @@
 				3FB4D2F317C47A6900DBCDB5 /* Icon.png in Resources */,
 				3FB4D2F417C47A6900DBCDB5 /* Icon@2x.png in Resources */,
 				3FB4D2FA17C47BC800DBCDB5 /* logo.jpg in Resources */,
+				3FB4D2FF17C4803C00DBCDB5 /* PEPSignupViewController.xib in Resources */,
+				3FB4D30417C4828900DBCDB5 /* PEPDiscountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +211,8 @@
 				3FB4D2D217C478F500DBCDB5 /* main.m in Sources */,
 				3FB4D2D617C478F500DBCDB5 /* PEPAppDelegate.m in Sources */,
 				3FB4D2DF17C478F500DBCDB5 /* PEPViewController.m in Sources */,
+				3FB4D2FE17C4803C00DBCDB5 /* PEPSignupViewController.m in Sources */,
+				3FB4D30317C4828900DBCDB5 /* PEPDiscountViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

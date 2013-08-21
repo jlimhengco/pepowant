@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PEPSignupViewController.h"
 
 @interface PEPViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *codeTextField;
+@property (strong, nonatomic) IBOutlet UIButton *submitButton;
 
 @end
