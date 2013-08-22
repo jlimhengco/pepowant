@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PEPDiscountViewController.h"
 
 @interface PEPSignupViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *orgNameLabel;
